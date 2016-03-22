@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>createbutton</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    UIButton *beatBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
+    [container addSubview:beatBtn];
+    [beatBtn mas_makeConstraints:^(MASConstraintMaker *make) {
+        &lt;#constrains#&gt;
+    }];
+[beatBtn setImage:[UIImage imageNamed:&lt;#ImageName#&gt;] forState:(&lt;#UIControlState#&gt;)];
+[beatBtn addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:(UIControlEventTouchUpInside)];
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>7AAA6D96-FABB-4981-9024-2ED279AB41C6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>UI Creation button （button 创建）</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
