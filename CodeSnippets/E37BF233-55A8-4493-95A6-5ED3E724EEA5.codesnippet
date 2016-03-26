@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>///&lt;&lt;#普通注释#&gt;</string>
+	<string>//&gt; &lt;#普通注释#&gt;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>E37BF233-55A8-4493-95A6-5ED3E724EEA5</string>
 	<key>IDECodeSnippetLanguage</key>
