@@ -3,26 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>createbutton</string>
+	<string>note_model</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    UIButton *beatBtn = [UIButton buttonWithType:(UIButtonTypeCustom)];
-    [container addSubview:beatBtn];
-    [beatBtn mas_makeConstraints:^(MASConstraintMaker *make) {
-        &lt;#constrains#&gt;
-    }];
-[beatBtn setImage:[UIImage imageNamed:&lt;#ImageName#&gt;] forState:(&lt;#UIControlState#&gt;)];
-[beatBtn addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:(UIControlEventTouchUpInside)];
+	<string>#pragma mark - model settings
+//|---------------------------------------------------------
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7AAA6D96-FABB-4981-9024-2ED279AB41C6</string>
+	<string>107260FF-726B-480A-BF0C-EC306E2A0B19</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>UI Creation button （button 创建）</string>
+	<string>note_model (模型设置)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

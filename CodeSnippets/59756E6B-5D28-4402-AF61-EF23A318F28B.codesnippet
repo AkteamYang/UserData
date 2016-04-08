@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>create_scrollview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>- (UIScrollView *)scr {
+    if (_scr == nil) {
+        _scr = [[UIScrollView alloc]init];
+        [self.view addSubview:_scr];
+        [_scr setShowsHorizontalScrollIndicator:NO];
+        [_scr setShowsVerticalScrollIndicator:NO];
+        [_scr setContentSize:self.view.frame.size];
+        [_scr setContentInset:(UIEdgeInsetsMake(0, 0, -20, 0))];
+        [_scr setAlwaysBounceVertical:YES];
+        _scr.frame = self.view.frame;
+    }
+    return _scr;
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>59756E6B-5D28-4402-AF61-EF23A318F28B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create_scrollview （创建scrollview）</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

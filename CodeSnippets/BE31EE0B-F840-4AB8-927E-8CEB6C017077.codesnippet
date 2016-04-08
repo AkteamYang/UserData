@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>debug_ViewSettings</string>
+	<string>debug_settings</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>                if (DEBUG) {
+	<string>                if (DEBUG_INFO_SHOW) {
                     &lt;#view degbug#&gt;
                 }</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -17,7 +17,7 @@
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>debugViewSettings （debug视图设置）</string>
+	<string>debug_settings （debug设置）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
