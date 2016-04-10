@@ -3,32 +3,33 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>create_scrollview</string>
+	<string>create_label</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (_scr == nil) {
-    _scr = [[UIScrollView alloc]init];
-    [self.view addSubview:_scr];
-    [_scr setShowsHorizontalScrollIndicator:NO];
-    [_scr setShowsVerticalScrollIndicator:NO];
-    [_scr setContentSize:self.view.frame.size];
-    [_scr setContentInset:(UIEdgeInsetsMake(0, 0, -20, 0))];
-    [_scr setAlwaysBounceVertical:YES];
-    _scr.frame = self.view.frame;
+	<string>if (_protocol == nil) {
+    _protocol = [UILabel new];
+    [self.scr addSubview:_protocol];
+    [_protocol setTextColor:mAKT_Color_Text_255];
+    [_protocol setFont:mAKT_Font_12];
+    if (DEBUG_INFO_SHOW) {
+        _protocol.backgroundColor = mAKT_Color_Random;
+    }
+    _protocol.attributedText = str;
 }
-return _scr;</string>
+return _protocol;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>59756E6B-5D28-4402-AF61-EF23A318F28B</string>
+	<string>2AE8A6F9-D431-43F5-A442-FDCA02F66EF6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create_scrollview （创建scrollview）</string>
+	<string>create_label (创建UILabel)</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
