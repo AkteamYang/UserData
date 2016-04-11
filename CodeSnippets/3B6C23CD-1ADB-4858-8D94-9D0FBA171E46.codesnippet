@@ -9,20 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>
-
-
-
-
-
-
-/*
- *       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- *-------|The following are function implementations that is provided to the external call|
- *       - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
- */
-#pragma mark - function implementations
-//|---------------------------------------------------------------------------------------------------------------------------
+	<string>#pragma mark - function implementations
+//|---------------------------------------------------------
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>3B6C23CD-1ADB-4858-8D94-9D0FBA171E46</string>
