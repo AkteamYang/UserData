@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>dealloc_code_snippet</string>
+	<string>dealloc_log</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
@@ -11,14 +11,14 @@
 	<key>IDECodeSnippetContents</key>
 	<string>- (void)dealloc
 {
-    NSLog(@"%@_dealloc",NSStringFromClass(self.class));
+    mAKT_Log(@"%@_dealloc",NSStringFromClass(self.class));
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FA5D2ADF-4ED9-41B6-B505-48FEDBCE1044</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>dealloc （释放）</string>
+	<string>dealloc_log （释放打印）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
