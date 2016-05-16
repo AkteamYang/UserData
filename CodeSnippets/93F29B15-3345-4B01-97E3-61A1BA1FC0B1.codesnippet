@@ -9,7 +9,7 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//--------------# Macro #--------------
+	<string>//--------------# Macro &amp; Const #--------------
 &lt;#macro#&gt;
 //--------------# E.n.d #--------------#&gt;Macro</string>
 	<key>IDECodeSnippetIdentifier</key>
