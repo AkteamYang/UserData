@@ -10,7 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>#pragma mark - public methods implementations
-//|---------------------------------------------------------</string>
+</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>CF6FAFDD-9C4F-41EF-807D-81EB57CDC60B</string>
 	<key>IDECodeSnippetLanguage</key>
@@ -20,6 +20,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>

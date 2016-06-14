@@ -3,20 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mark_super</string>
+	<string>note_update</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - super methods
-</string>
+	<string>//--------&lt;#更新注释#&gt;&lt;#2016#&gt;.&lt;#6#&gt;.&lt;#6#&gt;.HaoYang----------</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1640A099-D1C6-4C51-8BEB-72EA97B75387</string>
+	<string>6617F270-043B-490D-90ED-C0F2A547547C</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Super methods （超类方法）</string>
+	<string>note_update（更新注释）</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
