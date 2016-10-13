@@ -9,15 +9,15 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// import-&lt;frameworks.h&gt;
+	<string>/// import-&lt;frameworks.h&gt;
 
-// Function Module
+/// Function Module
 
-// import-"models.h"
+/// import-"models.h"
 
-// import-"views..."
+/// import-"views..."
 
-// import-"aid.h"
+/// import-"aid.h"
 
 </string>
 	<key>IDECodeSnippetIdentifier</key>
