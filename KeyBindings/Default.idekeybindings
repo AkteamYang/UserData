@@ -6,6 +6,8 @@
 	<dict>
 		<key>Key Bindings</key>
 		<dict>
+			<key>^</key>
+			<string>moveSubWordForward:</string>
 			<key></key>
 			<string>moveUp:</string>
 			<key></key>
