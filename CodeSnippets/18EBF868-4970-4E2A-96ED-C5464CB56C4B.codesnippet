@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fast_webImageView</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // &lt;#WebImageView#&gt;
+    XMWebImageView *&lt;#WebImageView#&gt; = [XMFastView&lt;XMWebImageView *&gt; fastViewSearchWithName:@"&lt;#WebImageView#&gt;" fromRootView:&lt;#container#&gt; withInitialMethod:^XMWebImageView *{
+        XMWebImageView *view        = [XMWebImageView new];
+        view.userInteractionEnabled = &lt;#NO#&gt;;
+        [view setImage:XM_IMG_NAMED(@"bg_focusImage_loading")];
+        view.backgroundColor        = colorFromRGBA(&lt;#0xffffff#&gt;, &lt;#0#&gt;);
+        view.layer.cornerRadius     = &lt;#4#&gt;;
+        view.layer.masksToBounds    = &lt;#YES#&gt;;
+        [&lt;#container#&gt; addSubview:view];
+        return view;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>18EBF868-4970-4E2A-96ED-C5464CB56C4B</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>fast_webImageView</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

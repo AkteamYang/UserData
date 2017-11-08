@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fast_imageview</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // &lt;#ImageView#&gt;
+    UIImageView *&lt;#imageView#&gt; = [XMFastView&lt;UIImageView *&gt; fastViewSearchWithName:@"&lt;#imageView#&gt;" fromRootView:&lt;#container#&gt; withInitialMethod:^UIImageView *{
+        UIImageView *view   = [UIImageView new];
+        [&lt;#container#&gt; addSubview:view];
+        view.image          = XM_IMG_NAMED(@"&lt;#name#&gt;");
+        [view setContentMode:&lt;#UIViewContentModeScaleToFill#&gt;];
+        return view;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>A0E88BD5-480C-41D9-B313-E805CAE93B3C</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>fast_imageview</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

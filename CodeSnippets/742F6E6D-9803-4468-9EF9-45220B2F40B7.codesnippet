@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fast_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>// &lt;#description#&gt;
+UIButton *&lt;#button#&gt; = [XMFastView&lt;UIButton *&gt; fastViewSearchWithName:@"&lt;#button#&gt;" fromRootView:&lt;#container#&gt; withInitialMethod:^UIButton *{
+        UIButton *view              = [UIButton buttonWithType:UIButtonTypeCustom];
+        view.titleLabel.font        = kPingFangFont(18);
+        [&lt;#container#&gt; addSubview:view];
+        view.layer.masksToBounds    = &lt;#YES#&gt;;
+        view.layer.cornerRadius     = &lt;#4#&gt;;
+        [view setBackgroundImage:XM_IMG_NAMED(@"&lt;#name#&gt;") forState:(UIControlStateNormal)];
+        [view setTitleColor:colorFromRGBA(&lt;#rgbValue#&gt;, &lt;#trans#&gt;) forState:(UIControlStateNormal)];
+        [view addTarget:self action:@selector(&lt;#buttonClick:#&gt;) forControlEvents:(UIControlEventTouchUpInside)];
+        return view;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>742F6E6D-9803-4468-9EF9-45220B2F40B7</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>fast_button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

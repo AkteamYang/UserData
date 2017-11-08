@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>fast_view</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    // &lt;#descriotion#&gt;
+    UIView *&lt;#view#&gt; = [XMFastView&lt;UIView *&gt; fastViewSearchWithName:@"&lt;#view#&gt;" fromRootView:&lt;#container#&gt; withInitialMethod:^UIView *{
+        UIView *view                    = [UIView new];
+        [&lt;#container#&gt; addSubview:view];
+        view.backgroundColor            = colorFromRGBA(&lt;#0x0#&gt;, &lt;#0.5#&gt;);
+        view.layer.shadowColor          = colorFromRGBA(&lt;#rgbValue#&gt;, &lt;#trans#&gt;).CGColor;
+        view.layer.shadowOffset         = CGSizeMake(&lt;#0#&gt;, &lt;#1.5#&gt;);
+        view.layer.shadowOpacity        = &lt;#0.12#&gt;;
+        view.layer.shadowRadius         = &lt;#4#&gt;;
+        return view;
+    }];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>E840036A-242D-40EB-8DD6-C9BD75C62763</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>fast_view</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
