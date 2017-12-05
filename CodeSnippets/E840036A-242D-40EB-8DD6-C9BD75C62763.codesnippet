@@ -18,6 +18,8 @@
         view.layer.shadowOffset         = CGSizeMake(&lt;#0#&gt;, &lt;#1.5#&gt;);
         view.layer.shadowOpacity        = &lt;#0.12#&gt;;
         view.layer.shadowRadius         = &lt;#4#&gt;;
+        view.layer.cornerRadius         = &lt;#4#&gt;;
+        view.layer.masksToBounds        = &lt;#YES#&gt;;
         return view;
     }];</string>
 	<key>IDECodeSnippetIdentifier</key>
@@ -29,6 +31,6 @@
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>0</integer>
+	<integer>2</integer>
 </dict>
 </plist>
