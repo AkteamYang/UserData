@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (strong, nonatomic) &lt;#UIImageView#&gt; *&lt;#nextImgv#&gt;;</string>
+	<string>@property (nonatomic, strong) &lt;#UIImageView#&gt; *&lt;#nextImgv#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>4F534612-88DA-4270-BD6D-F231314BABE4</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>strong （strong 属性）</string>
 	<key>IDECodeSnippetUserSnippet</key>

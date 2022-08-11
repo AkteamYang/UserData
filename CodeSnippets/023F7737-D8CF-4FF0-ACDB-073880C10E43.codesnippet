@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>note___</string>
+	<string>property_default</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ......</string>
+	<string>@property (nonatomic) &lt;#UIColor#&gt; *&lt;#bkgColor#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D313F5-6F7C-421D-98B9-1F732C893ED2</string>
+	<string>023F7737-D8CF-4FF0-ACDB-073880C10E43</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>默认属性</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>note ... (分隔符)</string>
+	<string>property</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

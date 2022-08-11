@@ -3,21 +3,22 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>note___</string>
+	<string>create_ctx_dict</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ......</string>
+	<string>NSMutableDictionary *ctxParams = [NSMutableDictionary dictionary];
+PreKBlockInvoke(paramsCtx, ctxParams);</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D313F5-6F7C-421D-98B9-1F732C893ED2</string>
+	<string>06F50946-8014-4830-819A-438CF28DD7A1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建字典</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>note ... (分隔符)</string>
+	<string>create_ctx_dict</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

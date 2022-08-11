@@ -3,21 +3,27 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>note___</string>
+	<string>create_array</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ......</string>
+	<string>if (!&lt;#_collectionData#&gt;) {
+    &lt;#_collectionData#&gt; = ({
+        NSMutableArray *arr = [NSMutableArray array];
+        (id)arr;
+    });
+}
+return &lt;#_collectionData#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D313F5-6F7C-421D-98B9-1F732C893ED2</string>
+	<string>391924A2-9DAA-4989-8E60-D77F79B59911</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建数组</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>note ... (分隔符)</string>
+	<string>create_array</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

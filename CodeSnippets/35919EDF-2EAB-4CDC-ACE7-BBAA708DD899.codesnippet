@@ -3,21 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>note___</string>
+	<string>create_yylabel</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ......</string>
+	<string>if (!&lt;#_wordLabel#&gt;) {
+    &lt;#_wordLabel#&gt; = ({
+        YYLabel *label = [[YYLabel alloc]init];
+        label.numberOfLines = 2;
+        label.textAlignment = NSTextAlignmentLeft;
+        label.displaysAsynchronously = YES;
+        label;
+    });
+}
+return &lt;#_wordLabel#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D313F5-6F7C-421D-98B9-1F732C893ED2</string>
+	<string>35919EDF-2EAB-4CDC-ACE7-BBAA708DD899</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建 yylabel</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>note ... (分隔符)</string>
+	<string>create_yylabel</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

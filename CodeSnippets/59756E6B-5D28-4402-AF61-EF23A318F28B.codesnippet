@@ -9,23 +9,27 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (_scr == nil) {
-    _scr = [[UIScrollView alloc]init];
-    [self.view addSubview:_scr];
-    [_scr setShowsHorizontalScrollIndicator:NO];
-    [_scr setShowsVerticalScrollIndicator:NO];
-    [_scr setContentSize:self.view.frame.size];
-    [_scr setContentInset:(UIEdgeInsetsMake(0, 0, -20, 0))];
-    [_scr setAlwaysBounceVertical:YES];
-    _scr.frame = self.view.frame;
+	<string>if (!&lt;#_scr#&gt;) {
+    &lt;#_scr#&gt; = ({
+        UIScrollView *scr = [[UIScrollView alloc]init];
+        &lt;#[scr setShowsHorizontalScrollIndicator:NO];#&gt;
+        &lt;#[scr setShowsVerticalScrollIndicator:NO];#&gt;
+        [scr setContentSize:&lt;#self.view.frame.size#&gt;];
+        [scr setContentInset:(UIEdgeInsetsMake(&lt;#0#&gt;, &lt;#0#&gt;, &lt;#0#&gt;, &lt;#0#&gt;))];
+        [scr setAlwaysBounceVertical:YES];
+        scr.frame = &lt;#self.view.frame#&gt;;
+        scr;
+    });
 }
-return _scr;</string>
+return &lt;#_scr#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>59756E6B-5D28-4402-AF61-EF23A318F28B</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建scrollView</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create_scrollview （创建scrollview）</string>
+	<string>create_scrollview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -9,12 +9,14 @@
 		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (retain, nonatomic) &lt;#UIImageView#&gt; *&lt;#nextImgv#&gt;;
+	<string>@property (nonatomic, retain) &lt;#UIImageView#&gt; *&lt;#nextImgv#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>FF7B37E4-CF3A-452C-AE75-A23A7D85FED0</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>property_retain（retain 属性）</string>
 	<key>IDECodeSnippetUserSnippet</key>

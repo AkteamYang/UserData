@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>create_button</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>if (!&lt;#_button#&gt;) {
+    &lt;#_button#&gt; = ({
+        UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+        button.frame = CGRectMake(&lt;#x#&gt;, &lt;#y#&gt;, &lt;#w#&gt;, &lt;#h#&gt;);
+        button.layer.cornerRadius = &lt;#corner#&gt;;
+        button.layer.masksToBounds = &lt;#YES#&gt;;
+        [button setTitle:@"&lt;#title#&gt;" forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor btd_colorWithHexString:@"#&lt;#000000#&gt;"] forState:UIControlStateNormal];
+        &lt;#button.backgroundColor = [UIColor yellowColor];#&gt;
+        [button addTarget:self action:@selector(&lt;#selector#&gt;) forControlEvents:UIControlEventTouchUpInside];
+        button;
+    });
+}
+return &lt;#_button#&gt;;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>672F5504-3EF2-4B87-8F94-D26F2AB57B71</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建button</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>create_button</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

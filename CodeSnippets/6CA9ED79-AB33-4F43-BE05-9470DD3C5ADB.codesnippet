@@ -3,21 +3,30 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>property_copy</string>
+	<string>create_adapter</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (nonatomic, copy) &lt;#UIImageView#&gt; *&lt;#nextImgv#&gt;;</string>
+	<string>if (!&lt;#_adapter#&gt;) {
+    &lt;#_adapter#&gt; = ({
+        IGListAdapterUpdater *updater = [[IGListAdapterUpdater alloc]init];
+        IGListAdapter *adapter = [[IGListAdapter alloc]initWithUpdater:updater viewController:&lt;#self#&gt; workingRangeSize:3];
+        adapter.collectionView = &lt;#self.collectionView#&gt;;
+        adapter.dataSource = &lt;#self#&gt;;
+        adapter;
+    });
+}
+return &lt;#_adapter#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>C7ED9FC7-92B8-4C6B-AD62-EEE62E53F79A</string>
+	<string>6CA9ED79-AB33-4F43-BE05-9470DD3C5ADB</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建adapter</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>property_copy（copy属性）</string>
+	<string>create_adapter</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

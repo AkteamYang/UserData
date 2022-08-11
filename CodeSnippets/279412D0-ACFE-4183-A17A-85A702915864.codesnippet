@@ -14,8 +14,10 @@
 	<string>279412D0-ACFE-4183-A17A-85A702915864</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>创建弱引用</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create_weakself (弱引用)</string>
+	<string>create_weakself </string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

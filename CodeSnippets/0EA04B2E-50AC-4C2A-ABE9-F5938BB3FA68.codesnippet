@@ -3,21 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>note___</string>
+	<string>create_label</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>// ......</string>
+	<string>if (!&lt;#_textLabel#&gt;) {
+    &lt;#_textLabel#&gt; = ({
+        UILabel *label = [[UILabel alloc]init];
+        label.textColor = &lt;#GGLColor.fc5#&gt;;
+        label.font = GGLFont_REGULAR(&lt;#16#&gt;);
+        label.numberOfLines = 0;
+        label.textAlignment = NSTextAlignmentCenter;
+        label;
+    });
+}
+return &lt;#_textLabel#&gt;;
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>B2D313F5-6F7C-421D-98B9-1F732C893ED2</string>
+	<string>0EA04B2E-50AC-4C2A-ABE9-F5938BB3FA68</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string></string>
+	<string>创建label</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>note ... (分隔符)</string>
+	<string>create_label</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

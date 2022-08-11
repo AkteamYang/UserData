@@ -9,11 +9,13 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>@property (assign, nonatomic) &lt;#type#&gt; &lt;#symbol#&gt;;</string>
+	<string>@property (nonatomic, assign) &lt;#type#&gt; &lt;#symbol#&gt;;</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>D6B7850D-ADD4-48D0-98FC-6FF3F399B4CF</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
 	<key>IDECodeSnippetTitle</key>
 	<string>assign （assign 属性）</string>
 	<key>IDECodeSnippetUserSnippet</key>

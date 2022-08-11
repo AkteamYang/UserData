@@ -3,30 +3,31 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>create_label</string>
+	<string>pragmamark</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>if (_protocol == nil) {
-    _protocol = [UILabel new];
-    [self.scr addSubview:_protocol];
-    [_protocol setTextColor:mAKT_Color_Text_255];
-    [_protocol setFont:mAKT_Font_12];
-    if (DEBUG_INFO_SHOW) {
-        _protocol.backgroundColor = mAKT_Color_Random;
-    }
-    _protocol.attributedText = str;
-}
-return _protocol;
+	<string>#pragma mark load &amp; init &amp; dealloc &amp; shareInstance
+#pragma mark 生命周期方法
+#pragma mark Public methods
+#pragma mark Private methods
+#pragma mark Actions
+#pragma mark Notifications
+#pragma mark Delegate
+#pragma mark Setter
+#pragma mark Getter
+#pragma mark Tracker
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>2AE8A6F9-D431-43F5-A442-FDCA02F66EF6</string>
+	<string>1B0E1FA9-589A-49F6-8036-6D5A5ED37843</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>代码组织</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>create_label (创建UILabel)</string>
+	<string>pragma mark</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
